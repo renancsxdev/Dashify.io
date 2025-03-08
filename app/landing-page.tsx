@@ -170,7 +170,7 @@ export default function LandingPage() {
                 {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
               </Button>
               <Button asChild className="hidden md:inline-flex">
-                <Link href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6" target="_blank">
+                <Link href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94" target="_blank">
                   {t.getDashify}
                 </Link>
               </Button>
@@ -214,7 +214,7 @@ export default function LandingPage() {
                       </Link>
                       <Button asChild className="mt-4">
                         <Link
-                          href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6"
+                          href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94"
                           target="_blank"
                           onClick={() => document.querySelector("[data-radix-dialog-close]")?.click()}
                         >
@@ -241,7 +241,7 @@ export default function LandingPage() {
               </div>
               <div className="flex flex-col gap-3 sm:flex-row">
                 <Button size="lg" asChild className="w-full sm:w-auto">
-                  <Link href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6" target="_blank">
+                  <Link href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94" target="_blank">
                     {t.getStarted} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -445,7 +445,7 @@ export default function LandingPage() {
                   </div>
                   <p className="mt-4 text-muted-foreground">{t.everythingYouNeed}</p>
                   <Button className="mt-6 w-full" size="lg" asChild>
-                    <Link href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6" target="_blank">
+                    <Link href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94" target="_blank">
                       {t.buyNow}
                     </Link>
                   </Button>
@@ -630,7 +630,7 @@ export default function LandingPage() {
               </p>
               <div className="flex w-full flex-col gap-3 sm:flex-row sm:w-auto sm:justify-center">
                 <Button size="lg" asChild className="w-full sm:w-auto">
-                  <Link href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6" target="_blank">
+                  <Link href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94" target="_blank">
                     {t.getDashifyFor}
                   </Link>
                 </Button>
