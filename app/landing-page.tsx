@@ -21,19 +21,15 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-// Remover a importação do Logo: import { Logo } from "@/components/logo"
 
-// Modificar o botão de compra para usar o link do Kirvano
-// Atualizar as imagens de demonstração para mostrar o template real
-// Atualizar o preço para R$ 230,00 em vez de $100
 
-// Import dos componentes de preview
+
 import { DashboardPreview } from "@/components/dashboard-preview"
 import { AnalyticsPreview } from "@/components/analytics-preview"
 import { CustomersPreview } from "@/components/customers-preview"
 import { SettingsPreview } from "@/components/settings-preview"
 
-// Modificar a função LandingPage para incluir o estado de idioma e a função de tradução
+
 export default function LandingPage() {
   const [theme, setTheme] = useState<"light" | "dark">("light")
   const [language, setLanguage] = useState<"en" | "pt">("en")
@@ -46,7 +42,7 @@ export default function LandingPage() {
     setLanguage(language === "en" ? "pt" : "en")
   }
 
-  // Objeto de tradução
+
   const translations = {
     en: {
       features: "Features",
@@ -68,7 +64,7 @@ export default function LandingPage() {
       oneTimePayment: "one-time payment",
       everythingYouNeed: "Everything you need to build a professional dashboard",
       buyNow: "Buy Now",
-      limitedOffer: "Limited time offer! Save R$740 today.",
+      limitedOffer: "Limited time offer! Save R$870 today.",
       customSolution: "Need a custom solution?",
       customSolutionDescription: "Contact us for custom development or enterprise licensing options.",
       contactSales: "Contact Sales",
@@ -78,7 +74,7 @@ export default function LandingPage() {
       faqDescription: "Find answers to common questions about the Dashify",
       readyToBuild: "Ready to Build Your Next Dashboard?",
       ctaDescription: "Get started with Dashify today and save weeks of development time",
-      getDashifyFor: "Get Dashify for R$ 230,00",
+      getDashifyFor: "Get Dashify for R$ 100,00",
       viewDemo: "View Demo",
       terms: "Terms",
       privacy: "Privacy",
@@ -106,7 +102,7 @@ export default function LandingPage() {
       oneTimePayment: "pagamento único",
       everythingYouNeed: "Tudo o que você precisa para construir um dashboard profissional",
       buyNow: "Comprar Agora",
-      limitedOffer: "Oferta por tempo limitado! Economize R$740 hoje.",
+      limitedOffer: "Oferta por tempo limitado! Economize R$870 hoje.",
       customSolution: "Precisa de uma solução personalizada?",
       customSolutionDescription:
         "Entre em contato para opções de desenvolvimento personalizado ou licenciamento empresarial.",
@@ -117,7 +113,7 @@ export default function LandingPage() {
       faqDescription: "Encontre respostas para perguntas comuns sobre o Dashify",
       readyToBuild: "Pronto para Construir seu Próximo Dashboard?",
       ctaDescription: "Comece com o Dashify hoje e economize semanas de desenvolvimento",
-      getDashifyFor: "Obter Dashify por R$ 230,00",
+      getDashifyFor: "Obter Dashify por R$ 100,00",
       viewDemo: "Ver Demonstração",
       terms: "Termos",
       privacy: "Privacidade",
@@ -435,11 +431,11 @@ export default function LandingPage() {
                     <div className="flex items-center gap-2">
                       <span className="text-2xl text-muted-foreground line-through">R$970</span>
                       <span className="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-800 dark:bg-green-900 dark:text-green-300">
-                        76% OFF
+                        88% OFF
                       </span>
                     </div>
                     <div className="flex items-baseline">
-                      <span className="text-5xl font-bold">R$230</span>
+                      <span className="text-5xl font-bold">R$100</span>
                       
                     </div>
                   </div>
