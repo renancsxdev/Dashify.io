@@ -455,9 +455,6 @@ export default function LandingPage() {
                       "Dark & Light Mode",
                       "8+ Pre-built Pages",
                       "Interactive Components",
-                      "Regular Updates",
-                      "Developer Support",
-                      "Commercial License",
                     ].map((feature, index) => (
                       <div key={index} className="flex items-center justify-center gap-2">
                         <Check className="h-4 w-4 text-primary" />
@@ -582,13 +579,7 @@ export default function LandingPage() {
                   template with new features, bug fixes, and compatibility updates.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-3">
-                <AccordionTrigger>Can I use Dashify for commercial projects?</AccordionTrigger>
-                <AccordionContent>
-                  Yes, your purchase includes a commercial license. You can use Dashify in unlimited personal and
-                  commercial projects. However, you cannot redistribute or resell the template itself.
-                </AccordionContent>
-              </AccordionItem>
+             
               <AccordionItem value="item-4">
                 <AccordionTrigger>What technologies does Dashify use?</AccordionTrigger>
                 <AccordionContent>
@@ -596,13 +587,7 @@ export default function LandingPage() {
                   follows modern best practices and is designed to be easy to customize and extend.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-5">
-                <AccordionTrigger>Do you offer support?</AccordionTrigger>
-                <AccordionContent>
-                  Yes, we offer email support to help you with any questions or issues you might have while using the
-                  template. We typically respond within 24-48 hours on business days.
-                </AccordionContent>
-              </AccordionItem>
+              
               <AccordionItem value="item-6">
                 <AccordionTrigger>Can I request a refund?</AccordionTrigger>
                 <AccordionContent>
