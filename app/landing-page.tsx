@@ -134,7 +134,10 @@ export default function LandingPage() {
           <div className="container flex h-16 items-center justify-between">
             <div className="flex items-center gap-6">
               {/* Substituir Logo por texto */}
-              <span className="text-xl font-bold">Dashify</span>
+              <div className={cn("flex items-center gap-2", className)}>
+      <img src="/logo.png" alt="Dashify Logo" className="h-8 w-auto" />
+      
+    </div>
               <nav className="hidden md:flex gap-6">
                 <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground">
                   {t.features}
