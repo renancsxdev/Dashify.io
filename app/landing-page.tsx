@@ -202,7 +202,7 @@ export default function LandingPage() {
       price: "R$27",
       features: ["Full Source Code", "Advanced UI Components", "Priority Updates", "Dark & Light Mode"],
       popular: false,
-      link: "https://pay.kirvano.com/different-link",
+      link: "https://pay.kirvano.com/009d1460-3770-446d-abc1-315bfa2e8648",
     },
   ]
 
