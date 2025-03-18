@@ -180,9 +180,9 @@ export default function LandingPage() {
   const pricingPlans = [
     {
       title: "Dashify Template",
-      originalPrice: "R$970",
-      discount: "88% OFF",
-      price: "R$100",
+      originalPrice: "R$100",
+      discount: "70% OFF",
+      price: "R$37",
       features: [
         "Full Source Code",
         "Next.js 14 App Router",
@@ -198,8 +198,8 @@ export default function LandingPage() {
     {
       title: "Dashify Register",
       originalPrice: "R$60",
-      discount: "45% OFF",
-      price: "R$27",
+      discount: "76% OFF",
+      price: "R$14",
       features: ["Full Source Code", "Advanced UI Components", "Priority Updates", "Dark & Light Mode"],
       popular: false,
       link: "https://pay.kirvano.com/a47fca71-2539-4342-9860-bdc88d6b8e84",
