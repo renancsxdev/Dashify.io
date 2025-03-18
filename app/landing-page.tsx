@@ -320,7 +320,7 @@ export default function LandingPage() {
                 {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
               </Button>
               <Button asChild className="hidden md:inline-flex rounded-full">
-                <Link href="https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94" target="_blank">
+                <Link href="https://pay.kirvano.com/ca8a9f12-4b88-4de0-b3f1-66c62b8d3ff5" target="_blank">
                   {t.getDashify}
                 </Link>
               </Button>
