@@ -82,7 +82,7 @@ export default function LandingPage() {
       oneTimePayment: "one-time payment",
       everythingYouNeed: "Everything you need to build a professional dashboard",
       buyNow: "Buy Now",
-      limitedOffer: "Limited time offer! Save R$870 today.",
+      limitedOffer: "Limited time offer! Save R$63 today.",
       customSolution: "Need a custom solution?",
       customSolutionDescription: "Contact us for custom development or enterprise licensing options.",
       contactSales: "Contact Sales",
@@ -119,7 +119,7 @@ export default function LandingPage() {
       oneTimePayment: "pagamento único",
       everythingYouNeed: "Tudo o que você precisa para construir um dashboard profissional",
       buyNow: "Comprar Agora",
-      limitedOffer: "Oferta por tempo limitado! Economize R$870 hoje.",
+      limitedOffer: "Oferta por tempo limitado! Economize R$63 hoje.",
       customSolution: "Precisa de uma solução personalizada?",
       customSolutionDescription:
         "Entre em contato para opções de desenvolvimento personalizado ou licenciamento empresarial.",
@@ -181,7 +181,7 @@ export default function LandingPage() {
     {
       title: "Dashify Template",
       originalPrice: "R$100",
-      discount: "70% OFF",
+      discount: "63% OFF",
       price: "R$37",
       features: [
         "Full Source Code",
@@ -537,7 +537,7 @@ export default function LandingPage() {
                           <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Link>
                       </Button>
-                      <p className="mt-4 text-sm text-amber-600 dark:text-amber-400 font-medium">{t.limitedOffer}</p>
+                      
                       <div className="mt-8 space-y-3 w-full">
                         {plan.features.map((feature, featureIndex) => (
                           <div
