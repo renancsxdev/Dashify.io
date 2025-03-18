@@ -193,7 +193,7 @@ export default function LandingPage() {
         "Interactive Components",
       ],
       popular: true,
-      link: "https://pay.kirvano.com/242e0fdd-2db3-49a8-85be-247ad1d85a94",
+      link: "https://pay.kirvano.com/ca8a9f12-4b88-4de0-b3f1-66c62b8d3ff5",
     },
     {
       title: "Dashify Register",
@@ -202,7 +202,7 @@ export default function LandingPage() {
       price: "R$27",
       features: ["Full Source Code", "Advanced UI Components", "Priority Updates", "Dark & Light Mode"],
       popular: false,
-      link: "https://pay.kirvano.com/009d1460-3770-446d-abc1-315bfa2e8648",
+      link: "https://pay.kirvano.com/a47fca71-2539-4342-9860-bdc88d6b8e84",
     },
   ]
 
